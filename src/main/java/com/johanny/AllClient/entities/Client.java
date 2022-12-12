@@ -49,31 +49,31 @@ public class Client {
         return cpf;
     }
 
-   public void setCpf(String cpf) {
-       this.cpf = cpf;
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
 
     public Double getIncome() {
         return income;
-   }
-
-    public void setIncome(Double income) {
-       this.income = income;
-   }
-
-    public LocalDate getBirthDate() {
-       return birthDate;
     }
 
-   // public void setBirthDate(LocalDate birthDate) {
-       // this.birthDate = birthDate;
-    //}
+    public void setIncome(Double income) {
+        this.income = income;
+    }
 
-    //public Integer getChildren() {
-        //return children;
-    //}
+    public LocalDate getBirthDate() {
+        return birthDate;
+    }
 
-    //public void setChildren(Integer children) {
-        //this.children = children;
-    //}
+    public void setBirthDate(LocalDate birthDate) {
+        this.birthDate = birthDate;
+    }
+
+    public Integer getChildren() {
+        return children;
+    }
+
+    public void setChildren(Integer children) {
+        this.children = children;
+    }
 }
